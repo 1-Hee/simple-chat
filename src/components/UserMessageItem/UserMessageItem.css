@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.user-message-item {
+  /* user-message-item */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 328px;
+  height: 72px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.user-message-item .user-img {
+  /* user-img */
+  width: 64px;
+  height: 64px;
+  background: #cacaca;
+  border-radius: 36px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.user-message-item .message-info-div {
+  /* message-info-div */
+  /* Auto layout */
+  display: flex;
+  padding: 0px 16px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  height: 64px;
+  background: #ffffff;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  justify-content: left;
+}
+.user-message-item .message-info-div .user-name-div {
+  /* user-name-div */
+  width: 100%;
+  height: max-content;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: left;
+}
+.user-message-item .message-info-div .user-message-div {
+  /* user-message-div */
+  width: 100%;
+  height: max-content;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-align: left;
+}
+
+/*# sourceMappingURL=UserMessageItem.css.map */

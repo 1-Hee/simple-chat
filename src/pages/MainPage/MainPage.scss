@@ -1,0 +1,20 @@
+@import "../../assets/scss/commons.scss";
+
+.main-container {
+  /* main-container */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 16px;
+  width: 360px;
+  height: 556px;
+  background: #fdfdfd; // white
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}

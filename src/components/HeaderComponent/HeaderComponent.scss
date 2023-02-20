@@ -1,0 +1,50 @@
+@import "../../assets//scss/commons.scss";
+
+.top-bar {
+  /* top-bar */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 24px;
+
+  width: 360px;
+  height: 64px;
+  background: #fdfdfd; // white
+  border-bottom: 1px solid #dedede; // mono 100
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  .user-profile {
+    /* user-profile */
+    width: 48px;
+    height: 48px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 24px;
+    border: 1px solid #5f5f5f; // mono 100
+  }
+  .title-div {
+    /* title-div */
+    width: 256px;
+    height: 48px;
+    background: #ffffff; // white
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    p {
+      text-align: left;
+    }
+  }
+}

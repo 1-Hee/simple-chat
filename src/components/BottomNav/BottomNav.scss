@@ -1,0 +1,36 @@
+@import "../../assets/scss/commons.scss";
+
+.bottom-bar {
+  /* bottom-bar */
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 64px;
+
+  width: 360px;
+  height: 80px;
+  background: #fdfdfd; // mono 100?
+  border-top: 1px solid #dedede; // color...
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  .chat-btn,
+  .user-btn,
+  .alarm-btn {
+    border: 1px solid black; // temp
+    /* chat-btn */
+    width: 48px;
+    height: 48px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
