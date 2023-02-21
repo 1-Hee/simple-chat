@@ -13,7 +13,7 @@
   width: 360px;
   height: 64px;
   background: #fdfdfd; // white
-  border-bottom: 1px solid #dedede; // mono 100
+  // border-bottom: 1px solid #dedede; // mono 100
   /* Inside auto layout */
 
   flex: none;
@@ -30,6 +30,9 @@
     order: 0;
     flex-grow: 0;
     border-radius: 24px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 1px solid #5f5f5f; // mono 100
   }
   .title-div {

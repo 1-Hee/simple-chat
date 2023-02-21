@@ -13,10 +13,9 @@
   align-items: center;
   padding: 0px 16px;
   gap: 64px;
-  width: 360px;
+  width: 100vw;
   height: 80px;
   background: #fdfdfd;
-  border-top: 1px solid #dedede;
   /* Inside auto layout */
   flex: none;
   order: 2;
@@ -26,7 +25,6 @@
 .bottom-bar .chat-btn,
 .bottom-bar .user-btn,
 .bottom-bar .alarm-btn {
-  border: 1px solid black;
   /* chat-btn */
   width: 48px;
   height: 48px;
@@ -34,6 +32,22 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-bar .chat-btn .chat-icon, .bottom-bar .chat-btn .user-icon, .bottom-bar .chat-btn .alarm-icon,
+.bottom-bar .user-btn .chat-icon,
+.bottom-bar .user-btn .user-icon,
+.bottom-bar .user-btn .alarm-icon,
+.bottom-bar .alarm-btn .chat-icon,
+.bottom-bar .alarm-btn .user-icon,
+.bottom-bar .alarm-btn .alarm-icon {
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=BottomNav.css.map */

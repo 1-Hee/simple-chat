@@ -9,7 +9,8 @@
   padding: 0px;
   gap: 8px;
 
-  width: 328px;
+  // width: 328px;
+  width: 100%;
   height: 72px;
 
   /* Inside auto layout */
@@ -21,12 +22,16 @@
     /* user-img */
     width: 64px;
     height: 64px;
-    background: #cacaca; // temp
+    // background: #cacaca; // temp
+    border: 1px solid #dedede; // mono100
     border-radius: 36px;
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .message-info-div {
     /* message-info-div */
