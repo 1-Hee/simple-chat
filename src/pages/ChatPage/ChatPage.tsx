@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ChatPage = () => {
+const ChatPage:Function = ():JSX.Element => {
   return <></>;
 };
 

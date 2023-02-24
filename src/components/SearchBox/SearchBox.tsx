@@ -6,7 +6,7 @@ import searchIcon from "../../assets/img/search-icon.png";
 // import css
 import "./SearchBox.css";
 
-const SearchBox = () => {
+const SearchBox:Function = ():JSX.Element => {
   return (
     <div className="search-box" placeholder="Search">
       <label htmlFor="search-input" className="search-icon" style={{ backgroundImage: `url(${searchIcon})` }}></label>

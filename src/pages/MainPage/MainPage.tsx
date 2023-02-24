@@ -9,7 +9,7 @@ import SearchBox from "../../components/SearchBox/SearchBox";
 // import css
 import "./MainPage.css";
 
-const MainPage = () => {
+const MainPage:Function = ():JSX.Element => {
   return (
     <>
       <HeaderComponent></HeaderComponent>

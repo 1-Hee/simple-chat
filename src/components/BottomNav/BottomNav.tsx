@@ -8,7 +8,7 @@ import alarmIcon from "../../assets/img/alarm-icon.png";
 // import css
 import "./BottomNav.css";
 
-const BottomNav = () => {
+const BottomNav:Function = ():JSX.Element => {
   return (
     <>
       <div className="bottom-bar ">

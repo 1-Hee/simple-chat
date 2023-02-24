@@ -6,7 +6,7 @@ import { useState } from "react";
 // import css
 import "./HeaderComponent.css";
 
-const HeaderComponent = () => {
+const HeaderComponent:Function = ():JSX.Element => {
   return (
     <>
       <div className="top-bar">

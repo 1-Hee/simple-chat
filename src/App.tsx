@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Transition from "./Transition";
 
-function App() {
+function App():JSX.Element {
   return (
     <div className="App">
       <Router>
